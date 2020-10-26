@@ -81,27 +81,7 @@ ButtonSubmit:																		;submit from main gui
 			msgbox, 276, WARNING!!!!!, are you sure you want to write to %drop%
 			ifmsgbox Yes
 			{
-				
 				goto, guipass
-				
-				; fileAppend, %Drop%,Manager.morlock
-				; runwait, 7za.exe x key_Card.7z -p%pswd% -y pass.morlock -r							;run 7z to extract pswd file as plain text
-				; global pswd:= 0000000000000000													;clear master pswd
-				; sleep, 500
-				; iniwrite, Butts, pass.morlock, SectionName, %Drop%
-				; runwait, 7za.exe a key_Card.7z *.morlock -p%pswd% -y
-				; if (save =1)
-				; {
-					; goto, Guiclose
-				; }
-				; else
-				; {
-					; if (savepswd = 0)
-					; {
-						; controlsettext,,,ahk_id %p1%
-					; }
-					; gui, restore
-				; }
 			}
 			else
 			{
