@@ -1,10 +1,10 @@
-# AHK-Morlock
-Stuff I have created using AutoHotKey
+# Morlock Pass
+created using AutoHotKey
 
 
 Everything here is open sorce and free to use.
 
-Current projects:
+
     
     Morlock Password Manager. v1.0
             This is a password manager that uses 7-zip and an external usb drive(not needed) to save passwords
