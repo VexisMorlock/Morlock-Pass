@@ -18,16 +18,4 @@ This is a password manager that uses 7-zip and an external usb drive to save pas
 
  [7-zip]: https://www.7-zip.org/download.html               
  [AutoHotKey]: https://www.autohotkey.com/            
-             
-             
-             Known Issues:
-                Hard coded in drive and location data
-                        ~Drive Z:
-                        ~key_Card.7z
-                
-                Need option to skip putting password in 2 times
-                
-                Files temp stored in plain text
-                
-                looks trashy
-                
+              
