@@ -11,11 +11,13 @@ This is a password manager that uses 7-zip and an external usb drive to save pas
 * Download 7-zip console version plugin for Far Manager and place in working directory [7-zip]
  * you may want to install normal 7-zip for windows as well, because the plugin is in a 7z archive.
 
--install [AutoHotKey] v 1.1.33.1 or higher
+* Install [AutoHotKey] v 1.1.33.1 or higher
 
--Set up usb drive to use drive letter Z:/ or change the working directory.
+* Set up usb drive to use drive letter Z:/ or change the working directory.
 
--Create key_Card.7z on the drive with a master password.
+* Create key_Card.7z archive with both .morlock files inside, and place them on the drive with a master-password.
+
+* When using morlock-pass by default your master-password is forgotten after every action. If you don't like that, it can be changed in the GUI.
 
  [7-zip]: https://www.7-zip.org/download.html               
  [AutoHotKey]: https://www.autohotkey.com/            
