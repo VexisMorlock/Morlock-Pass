@@ -8,13 +8,14 @@
 This is a password manager that uses 7-zip and an external usb drive to save passwords 
 
 ## Installation and Useage:
--Download 7-zip console version plugin for Far Manager and place in working directory [7-zip]
+* Download 7-zip console version plugin for Far Manager and place in working directory [7-zip]
+ * you may want to install normal 7-zip for windows as well, because the plugin is in a 7z archive.
 
--Set up usb drive to use drive letter Z:/ 
+-install [AutoHotKey] v 1.1.33.1 or higher
 
--Create key_Card.7z on drive with password you would like to use to unlock stored passwords
+-Set up usb drive to use drive letter Z:/ or change the working directory.
 
--install [AutoHotKey] v 1.1.33.1 or higher or use compiled version (.exe)
+-Create key_Card.7z on the drive with a master password.
 
  [7-zip]: https://www.7-zip.org/download.html               
  [AutoHotKey]: https://www.autohotkey.com/            
